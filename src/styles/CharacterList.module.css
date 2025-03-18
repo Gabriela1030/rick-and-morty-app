@@ -1,0 +1,60 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #202329;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #97ce4c;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: space-evenly; 
+}
+
+
+.addButtonContainer {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.addButton {
+  border: 1px solid #3c3e44;
+  border-radius: 8px;
+  padding: 10px;
+  width: 220px; 
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3c3e44;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.addButton:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.addButton span {
+  font-size: 3rem;
+  color: #97ce4c;
+}
+
+.addButton p {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  color: #ffffff;
+}

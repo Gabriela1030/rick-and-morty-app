@@ -1,0 +1,31 @@
+.details {
+  padding: 20px;
+  text-align: center;
+  background-color: #3c3e44; 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.image {
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  color: #ffffff; 
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #9e9e9e; 
+}
+
+strong {
+  color: #ffffff; 
+}

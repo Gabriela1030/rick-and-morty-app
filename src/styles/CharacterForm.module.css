@@ -1,0 +1,84 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Más espacio entre elementos */
+  max-width: 450px; /* Un poco más ancho */
+  margin: 20px auto; /* Espaciado superior e inferior */
+  padding: 25px;
+  background-color: #2f3136; /* Color más suave */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input,
+select {
+  padding: 12px;
+  border: 1px solid #555; /* Color más oscuro para mejor contraste */
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #333;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus,
+select:focus {
+  border-color: #97ce4c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(151, 206, 76, 0.6);
+}
+
+button {
+  padding: 12px;
+  background-color: #97ce4c;
+  color: #1e1e1e;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.2s;
+}
+
+button:hover {
+  background-color: #7bb042;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fileLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background-color: #4e5058;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-align: center;
+}
+
+.fileLabel:hover {
+  background-color: #7bb042;
+  transform: scale(1.05);
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileName {
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.message {
+  color: #3acf53;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}

@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import CharacterCard from '../components/CharacterCard';
 import { Character } from '../services/apiService';
 
-// Mock de un personaje con todas las propiedades requeridas por la interfaz Character
+
 const mockCharacter: Character = {
   id: 1,
   name: 'Rick Sanchez',
